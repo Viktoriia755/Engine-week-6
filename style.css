@@ -44,12 +44,8 @@ div.date {
   font-size: 14px;
   color: #454742;
 }
-#enter {
-  width: 100%;
-  padding: 4px;
-}
 .last {
-  width: 70%;
+  width: 45%;
   text-align: center;
 }
 .last:hover {
@@ -79,6 +75,13 @@ div.date {
 #celcius:hover {
   cursor: pointer;
   text-decoration: underline;
+}
 #degrees {
   padding-left: 15px;
+}
+.enter {
+  padding: 0;
+  margin: 0;
+  line-height: 2;
+  width: 100%;
 }
