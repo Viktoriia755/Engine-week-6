@@ -1,0 +1,84 @@
+body {
+  width: 40%;
+  border: 1px solid #686871;
+  border-radius: 5px;
+}
+
+div.date {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #454742;
+  font-style: italic;
+}
+.precipitation {
+  padding-top: 35px;
+  font-size: 14px;
+  color: #454742;
+  text-align: right;
+}
+.city {
+  font-size: 46px;
+  font-weight: 700;
+}
+.main {
+  font-size: 28px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.feels {
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 17px;
+  color: #080e73;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.forecast {
+  text-align: center;
+}
+.change {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #454742;
+}
+#enter {
+  width: 100%;
+  padding: 4px;
+}
+.last {
+  width: 70%;
+  text-align: center;
+}
+.last:hover {
+  cursor: pointer;
+}
+.button {
+  right: 0;
+  margin: 0;
+  padding-right: 0%;
+  width: 70%;
+}
+#fahren {
+  color: #2832f2;
+  font-size: 60%;
+  vertical-align: top;
+  font-weight: 800;
+}
+#fahren:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#celcius {
+  font-size: 60%;
+  vertical-align: top;
+  font-weight: 800;
+}
+#celcius:hover {
+  cursor: pointer;
+  text-decoration: underline;
+#degrees {
+  padding-left: 15px;
+}
