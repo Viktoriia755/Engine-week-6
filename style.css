@@ -1,5 +1,5 @@
 body {
-  width: 200px;
+  max-width: 520px;
   border: 1px solid #686871;
   border-radius: 5px;
 }
