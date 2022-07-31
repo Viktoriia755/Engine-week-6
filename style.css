@@ -45,7 +45,7 @@ div.date {
   color: #454742;
 }
 .last {
-  width: 45%;
+  width: 50%;
   text-align: center;
 }
 .last:hover {
@@ -55,7 +55,10 @@ div.date {
   right: 0;
   margin: 0;
   padding-right: 0%;
-  width: 70%;
+  width: 100%;
+}
+#button-current {
+  width: 100%;
 }
 #fahren {
   color: #2832f2;
@@ -82,5 +85,11 @@ div.date {
 .enter {
   padding: 0;
   margin: 0;
-  line-height: 2;
+}
+#search-city {
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+  padding: 7px;
+  width: 100%;
 }
