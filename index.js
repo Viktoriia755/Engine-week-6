@@ -64,7 +64,7 @@ function getLocation(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(showPosition);
   let heading = document.querySelector("h1");
-  heading.innerHTML = "Your city";
+  heading.innerHTML = `Your city`;
 }
 
 let currentButton = document.querySelector("#button-current");
